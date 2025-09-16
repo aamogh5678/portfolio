@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-900 to-purple-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-gradient-to-r from-indigo-900 to-purple-900 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-purple-300">Profile</h1>
+      <div class="space-x-4">
+        <a href="#about" class="px-3 py-2 hover:bg-purple-700 rounded-lg">About</a>
+        <a href="#skills" class="px-3 py-2 hover:bg-purple-700 rounded-lg">Skills</a>
+        <a href="#projects" class="px-3 py-2 hover:bg-purple-700 rounded-lg">Projects</a>
+        <a href="#experience" class="px-3 py-2 hover:bg-purple-700 rounded-lg">Experience</a>
+        <a href="#contact" class="px-3 py-2 hover:bg-purple-700 rounded-lg">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+<section id="about" class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <!-- Profile Image with Glow Effect -->
+<div class="relative">
+  <img src="images/profile.jpg" 
+       class="w-45 h-40 rounded-full border-4 border-purple-400 shadow-lg shadow-purple-500/50 hover:scale-105 transition-transform duration-300" 
+       alt="Profile" />
+  <div class="absolute inset-0 rounded-full border-4 border-purple-500/50 blur-xl opacity-40 animate-pulse"></div>
+</div>
+
+
+
+  <!-- Name -->
+  <h2 class="text-5xl font-extrabold mt-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-400 drop-shadow-lg">
+    M Aamogh Siddartha Reddy
+  </h2>
+
+  <!-- Role -->
+  <p class="text-2xl mt-2 text-purple-100 font-medium">Aspiring Software Engineer</p>
+
+  <!-- Bio -->
+  <p class="max-w-2xl mt-4 text-gray-300 leading-relaxed">
+          I enjoy building efficient, scalable solutions and have a strong interest in AI/ML and competitive programming. I love tackling challenges and using technology to bring ideas to life.
+
+  </p>
+
+  <!-- Buttons -->
+  <div class="mt-6 flex gap-4">
+    <a href="#contact" class="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-500 px-6 py-3 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg shadow-blue-500/50">
+      📩 Contact Me
+    </a>
+    <a href="C:\Users\HP\Desktop\resume (1)[1].pdf" download class="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg shadow-pink-500/50">
+      ⬇ Download Resume
+    </a>
+  </div>
+</section>
+<!-- About Me Section -->
+<section id="about-me" class="py-20 px-6 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <h2 class="text-3xl font-bold text-center text-purple-200 mb-12">About Me</h2>
+
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+    
+    <!-- Education Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-bold mb-4 flex items-center gap-2">Education</h3>
+      <p class="text-lg font-semibold">B.Tech in Computer Science</p>
+      <p class="text-gray-300">Vellore Institute of Technology</p>
+      <p class="text-gray-400">Sept 2022 – Present</p>
+      <p class="text-green-400 font-semibold mt-2">CGPA: 8.53</p>
+    </div>
+
+    <!-- Contact Information Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+      <p class="flex items-center gap-2 text-gray-300">
+        📍 Vellore, Tamil Nadu
+      </p>
+      <p class="flex items-center gap-2 text-blue-400">
+        ✉ <a href="mailto:adityadhane553@gmail.com" class="hover:underline">aamoghsiddartha2020@gmail.com</a>
+      </p>
+      <p class="flex items-center gap-2 text-blue-400">
+        📞 <a href="tel:+917989869813" class="hover:underline">+91 79898 69813</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Skills & Technologies Section -->
+<section id="skills" class="py-20 px-6 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <h2 class="text-4xl font-bold text-center text-purple-200 mb-12">Skills & Technologies</h2>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    <!-- Languages -->
+    <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-white/20">
+      <h3 class="text-lg font-semibold text-blue-300 mb-4">Languages</h3>
+      <ul class="space-y-2 text-gray-200">
+        <li>⭐ C++</li>
+        <li>⭐ C</li>
+        <li>⭐ Java</li>
+        <li>⭐ Python</li>
+        <li>⭐ HTML</li>
+        <li>⭐ JavaScript</li>
+        <li>⭐ SQL</li>
+      </ul>
+    </div>
+
+    <!-- Technologies -->
+    <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-white/20">
+      <h3 class="text-lg font-semibold text-purple-300 mb-4">Technologies</h3>
+      <ul class="space-y-2 text-gray-200">
+        <li>⭐ Git</li>
+        <li>⭐ GitHub</li>
+        <li>⭐ Visual Studio Code</li>
+         <li>⭐ Pandas</li>
+        <li>⭐ NumPy</li>
+        <li>⭐ Jupyter</li>
+        <li>⭐ Power BI</li>
+        <li>⭐ TensorFlow</li>
+      </ul>
+    </div>
+
+    <!-- Data & ML -->
+    <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-white/20">
+      <h3 class="text-lg font-semibold text-green-400 mb-4">Relevant CourseWork</h3>
+      <ul class="space-y-2 text-gray-200">
+        <li>⭐ Data Structures & Algorithms</li>
+        <li>⭐ Operating Systems</li>
+        <li>⭐ Object Oriented Programming</li>
+        <li>⭐ Database Management System</li>
+        <li>⭐ Software Engineering</li>
+      </ul>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-white/20">
+      <h3 class="text-lg font-semibold text-pink-300 mb-4">Soft Skills</h3>
+      <ul class="space-y-2 text-gray-200">
+        <li>⭐ Problem-solving</li>
+        <li>⭐ Team Collaboration</li>
+        <li>⭐ Communication</li>
+        <li>⭐ Time Management</li>
+        <li>⭐ Critical Thinking</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section id="projects" class="py-20 px-6 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <h2 class="text-4xl font-bold text-center text-purple-200 mb-12">Featured Projects</h2>
+<!-- Project Card -->
+<div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 shadow-lg border border-white/20 max-w-5xl mx-auto relative">
+  
+  <!-- Top Right Icons -->
+  <div class="absolute top-4 right-4 flex gap-4 text-blue-400">
+    <a href="https://github.com/your-username/DiabetesPrediction_SVMModel-main" target="_blank" class="hover:text-blue-300" aria-label="GitHub Repo">
+      <!-- GitHub Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008.01 10.94c.59.11.81-.26.81-.58v-2.02c-3.26.71-3.95-1.4-3.95-1.4-.54-1.38-1.33-1.75-1.33-1.75-1.09-.75.08-.74.08-.74 1.21.09 1.84 1.25 1.84 1.25 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.6-.3-5.34-1.3-5.34-5.8 0-1.28.46-2.33 1.24-3.15-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.2.96-.27 1.99-.4 3.01-.4s2.05.13 3.01.4c2.29-1.52 3.3-1.2 3.3-1.2.66 1.64.24 2.86.12 3.16.78.82 1.24 1.87 1.24 3.15 0 4.51-2.75 5.5-5.37 5.79.43.37.82 1.1.82 2.21v3.28c0 .32.22.69.82.58A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/>
+      </svg>
+    </a>
+    <a href="C:/Users/HP/Desktop/DiabetesPrediction_SVMModel-main/Diabetes-Prediction" target="_blank" class="hover:text-blue-300" aria-label="Live Demo">
+      <!-- External Link Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M14 3h7v7m0-7L10 14m4 7H5a2 2 0 01-2-2V7a2 2 0 012-2h7"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Project 1: Diabetes Prediction -->
+<div class="mb-10"> <!-- Added margin-bottom for spacing -->
+  <!-- Project Title -->
+  <h3 class="text-xl font-bold text-blue-300">Diabetes Prediction (SVM Model)</h3>
+  <p class="text-gray-300 mt-2">
+    A machine learning project using Support Vector Machine (SVM) to predict diabetes based on medical diagnostic data. 
+    Includes preprocessing, feature selection, model training, and evaluation with accuracy & performance metrics.
+  </p>
+
+  <!-- Key Features -->
+  <div class="mt-4">
+    <h4 class="font-semibold text-gray-200">Key Features:</h4>
+    <div class="grid sm:grid-cols-2 gap-y-2 mt-2">
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Data preprocessing & cleaning
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> SVM classification
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Accuracy & confusion matrix
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> User-friendly prediction interface
+      </p>
+    </div>
+  </div>
+
+  <!-- Tech Stack Tags -->
+  <div class="flex flex-wrap gap-2 mt-4">
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Python</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Scikit-Learn</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Pandas</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">NumPy</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Matplotlib</span>
+  </div>
+</div>
+
+
+<!-- Project 2: Generative AI using TensorFlow -->
+<div class="mb-10"> <!-- Added margin-bottom for spacing -->
+  <!-- Project Title -->
+  <h3 class="text-xl font-bold text-blue-300">Generative AI using TensorFlow</h3>
+  <p class="text-gray-300 mt-2">
+    A machine learning project focused on predicting compressive strength of concrete using deep learning and ML techniques. 
+    Includes preprocessing, model building, training, visualization, and evaluation to ensure accuracy and interpretability.
+  </p>
+
+  <!-- Key Features -->
+  <div class="mt-4">
+    <h4 class="font-semibold text-gray-200">Key Features:</h4>
+    <div class="grid sm:grid-cols-2 gap-y-2 mt-2">
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Data preprocessing & visualization
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Predictive model for compressive strength
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Deep learning with TensorFlow
+      </p>
+      <p class="flex items-center gap-2 text-green-400">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> End-to-end ML workflow in Jupyter Notebook
+      </p>
+    </div>
+  </div>
+
+  <!-- Tech Stack Tags -->
+  <div class="flex flex-wrap gap-2 mt-4">
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Python</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">TensorFlow</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Pandas</span>
+    <span class="px-3 py-1 text-sm bg-purple-900/50 rounded-full border border-purple-400 text-purple-300">Data Visualization</span>
+  </div>
+</div>
+
+
+  <!-- Experience & Achievements Section -->
+<section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-4xl font-bold text-center text-purple-300 mb-12">Experience & Achievements</h2>
+  
+  <div class="grid md:grid-cols-2 gap-8">
+    
+    <!-- Experience Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-bold flex items-center gap-2 text-blue-200">
+        <span>💼</span> Experience
+      </h3>
+      <div class="mt-4">
+        <h4 class="text-lg font-semibold text-purple-100">Management Core Member</h4>
+        <p class="text-gray-300">Telugu Literary Association (TLA)</p>
+        <p class="text-gray-400 text-sm">Apr 2025 – Mar 2026</p>
+        <ul class="mt-3 text-gray-300 list-disc list-inside space-y-1">
+          <li>Handled documentation and record-keeping for association events</li>
+          <li>Coordinated with teams to ensure smooth execution of literary activities</li>
+          <li>Developed and enhanced management and organizational skills</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Certifications Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-bold flex items-center gap-2 text-pink-200">
+        <span>📜</span> Certifications
+      </h3>
+      <ul class="mt-4 space-y-2 text-gray-300">
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 bg-green-400 rounded-full"></span>
+          Artificial Intelligence using Google TensorFlow – SmartBridge & Google Developers (June 2024)
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 bg-green-400 rounded-full"></span>
+          College Hackathon – Runner-up for developing an AI-powered Waste Management Solution (Oct 2024)
+        </li>
+       
+        <li class="flex items-center gap-2">
+          <span class="w-2 h-2 bg-green-400 rounded-full"></span>
+          Infosys Springboard – Java Language Features (June 2025)
+        </li>
+      </ul>
+    </div>
+
+    <!-- Achievements Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-bold flex items-center gap-2 text-yellow-300">
+        <span>🏆</span> Achievements
+      </h3>
+      <ul class="mt-4 text-gray-300 list-disc list-inside space-y-2">
+        <li>Agile Methodologies & Version Control – Strong understanding of Git & GitHub</li>
+        <li>Data Structure Implementations – Visualized data structures using tools</li>
+        <li>Participated in 3 coding hackathons demonstrating problem-solving under pressure</li>
+        <li>Solved various coding and logical problems to strengthen problem-solving skills</li>
+      </ul>
+    </div>
+
+    <!-- Competitions Card -->
+    <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-6 rounded-xl shadow-lg">
+      <h3 class="text-xl font-bold flex items-center gap-2 text-orange-300">
+        <span>🎮</span> Competitions
+      </h3>
+      <ul class="mt-4 text-gray-300 list-disc list-inside space-y-2">
+  <li>Data Science Case Study Challenge – Top 10 position among 100+ teams (2024)</li>
+  <li>Smart India Hackathon – Participated in AI-driven solution for healthcare monitoring (2023)</li>
+  <li>Debugging Contest – Finalist (2024)</li>
+</ul>
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-20 px-6 bg-gradient-to-r from-indigo-900 to-purple-900">
+  <h2 class="text-4xl font-bold text-center text-purple-200 mb-6">Let's Connect</h2>
+  <p class="text-center text-gray-300 mb-12">
+    I'm always open to discussing new opportunities and interesting projects.
+  </p>
+
+  <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+    
+    <!-- Email -->
+    <div class="bg-white/10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+      <!-- Envelope Mail Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-10 h-10 text-blue-400 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18a2 2 0 002-2V6a2 2 0 00-2-2H3a2 2 0 00-2 2v8a2 2 0 002 2z" />
+      </svg>
+      <h3 class="text-xl font-semibold text-purple-200">Email</h3>
+      <p class="text-gray-300 mt-2">
+        <a href="mailto:aamoghsiddartha2020@gmail.com" class="hover:underline">
+          aamoghsiddartha2020@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="bg-white/10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+      <!-- LinkedIn Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-10 h-10 text-blue-500 mb-3" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.75 2.24 5 5 5h14c2.75 0 5-2.25 5-5v-14c0-2.76-2.25-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.02-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.37h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.6v5.6z"/>
+      </svg>
+      <h3 class="text-xl font-semibold text-purple-200">LinkedIn</h3>
+      <p class="text-gray-300 mt-2">
+        <a href="http://www.linkedin.com/in/aamogh-siddartha-maddikunta-203556272" target="_blank" class="hover:underline">
+          Connect with me
+        </a>
+      </p>
+    </div>
+
+    <!-- GitHub -->
+    <div class="bg-white/10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+      <!-- GitHub Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-10 h-10 text-gray-300 mb-3" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008.01 10.94c.59.11.81-.26.81-.58v-2.02c-3.26.71-3.95-1.4-3.95-1.4-.54-1.38-1.33-1.75-1.33-1.75-1.09-.75.08-.74.08-.74 1.21.09 1.84 1.25 1.84 1.25 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.6-.3-5.34-1.3-5.34-5.8 0-1.28.46-2.33 1.24-3.15-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.2.96-.27 1.99-.4 3.01-.4s2.05.13 3.01.4c2.29-1.52 3.3-1.2 3.3-1.2.66 1.64.24 2.86.12 3.16.78.82 1.24 1.87 1.24 3.15 0 4.51-2.75 5.5-5.37 5.79.43.37.82 1.1.82 2.21v3.28c0 .32.22.69.82.58A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/>
+      </svg>
+      <h3 class="text-xl font-semibold text-purple-200">GitHub</h3>
+      <p class="text-gray-300 mt-2">
+        <a href="https://github.com/aamogh5678" target="_blank" class="hover:underline">
+          View my code
+        </a>
+      </p>
+    </div>
+
+  </div>
+</section>
+  <footer class="text-center py-6 bg-purple-900 text-gray-400">
+    © 2025 Aamogh Siddartha Reddy. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
